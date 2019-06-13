@@ -1,59 +1,67 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Title",
-      "description":"Title for the goals page.",
-      "default":"Goals"
+      "label": "Description",
+      "description": "Description des objectifs de la page.",
+      "default": "Entrez les objectifs sur lesquels vous avez choisis de travailler."
     },
     {
-      "label":"Description",
-      "description":"Description of the goals page.",
-      "default":"Insert the goals that you have chosen to work with."
+      "label": "Définir le texte du lien vers un objectif",
+      "description": "Texte qui apparaît sur le bouton pour créer un nouvel objectif.",
+      "default": "Créer un nouvel objectif"
     },
     {
-      "label":"Define goal link text",
-      "description":"Text that will be displayed on the button for creating a new goal.",
-      "default":"Create a new goal"
+      "label": "Intitulé pour un objectif créé par l'utilisateur",
+      "description": "Texte qui sera utilisé comme intitulé d'un objectif créé par l'utilisateur.",
+      "default": "Objectif créé par l'utilisateur"
     },
     {
-      "label":"Label for a user defined goal",
-      "description":"Text that will be displayed as label on a user created goal.",
-      "default":"User defined goal"
+      "label": "Définissez le texte initial de l'objectif",
+      "description": "Texte qui apparaît lors de la création d'un nouvel objectif.",
+      "default": "Ecrivez ici..."
     },
     {
-      "label":"Define goal placeholder",
-      "description":"Text that will be displayed as a placeholder when creating a new goal.",
-      "default":"Write here..."
+      "label": "Texte qui indique combien d'objectifs ont été ajoutés",
+      "default": "objectifs ajoutés :",
+      "description": "Ce texte va afficher le nombre d'objectifs créés, par exemple : 'objectifs ajoutés : 5' où 'Objectifs ajoutés :' est ce texte."
     },
     {
-      "label":"Text indicating how many goals has been added",
-      "default":"Goals added:",
-      "description":"This text will follow after the amount of goals that is currently created, example: 'Goals added: 5' where 'Goals added:' is this text."
+      "label": "Texte pour le bouton \"Préciser l'objectif\"",
+      "default": "Préciser"
     },
     {
-      "label":"Text for \"Finish goal\"-button",
-      "default":"Finish"
+      "label": "Texte pour le bouton \"Supprimer l'objectif\"",
+      "default": "Supprimer"
     },
     {
-      "label":"Text for \"Edit goal\"-button",
-      "default":"Edit"
+      "label": "Titre pour le texte d'aide",
+      "description": "Titre pour afficher à l'utilisateur une information complémentaire utile.",
+      "default": "En savoir plus"
     },
     {
-      "label":"Text for \"Specify goal\"-button",
-      "default":"Specification"
+      "label": "Complétez l'information complémentaire utile",
+      "description": "Ici vous pouvez saisir l'information complémentaire utile pour l'utilisateur."
     },
     {
-      "label":"Text for \"Remove goal\"-button",
-      "default":"Remove"
-    },
-    {
-      "label":"Label for help text",
-      "description":"Label for showing additional helpful information to the user.",
-      "default":"More information"
-    },
-    {
-      "label":"Fill in additional help information",
-      "description":"Here you can fill in additional helpful information for the user."
+      "label": "Localisez la confirmation pour supprimer un objectif",
+      "fields": [
+        {
+          "label": "En-tête",
+          "default": "Confirmer la suppression"
+        },
+        {
+          "label": "Message",
+          "default": "Etes-vous sûr de vouloir supprimer cet objectif ?"
+        },
+        {
+          "label": "Titre du bouton d'annulation",
+          "default": "Annuler"
+        },
+        {
+          "label": "Titre du bouton de confirmation",
+          "default": "Confirmer"
+        }
+      ]
     }
   ]
 }

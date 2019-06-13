@@ -1,59 +1,67 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Title",
-      "description":"Title for the goals page.",
-      "default":"Goals"
+      "label": "Omschrijving",
+      "description": "Omschrijving van de doelstellingen pagina.",
+      "default": "Omschrijf de doelen die je hebt gekozen om mee aan de slag te gaan."
     },
     {
-      "label":"Description",
-      "description":"Description of the goals page.",
-      "default":"Insert the goals that you have chosen to work with."
+      "label": "Definieer de koppeling naar de doelstelling tekst",
+      "description": "Deze tekst wordt getoond op de knop definieer een nieuwe doelstelling.",
+      "default": "Definieer een nieuwe doelstelling"
     },
     {
-      "label":"Define goal link text",
-      "description":"Text that will be displayed on the button for creating a new goal.",
-      "default":"Create a new goal"
+      "label": "Label van een door de gebruiker gedefinieerde doelstelling",
+      "description": "Deze tekst wordt getoond als label op een door de gebruiker gedefinieerde doelstelling.",
+      "default": "Door de gebruiker gedefinieerde doelstelling"
     },
     {
-      "label":"Label for a user defined goal",
-      "description":"Text that will be displayed as label on a user created goal.",
-      "default":"User defined goal"
+      "label": "Definieer aanduiding doelstelling",
+      "description": "Deze tekst wordt getoond als aanduiding wanneer er een nieuwe doelstelling wordt gedefinieerd.",
+      "default": "Maak hier een omschrijving..."
     },
     {
-      "label":"Define goal placeholder",
-      "description":"Text that will be displayed as a placeholder when creating a new goal.",
-      "default":"Write here..."
+      "label": "Tekst om aan te geven hoeveel doelstellingen er zijn toegevoegd",
+      "default": "Toegevoegde doelstellingen:",
+      "description": "Deze tekst volgt nadat het aantal doelstellingen is gemaakt, voorbeeld: 'Toegevoegde doelstellingen: 5' waar 'Toegevoegde doestellingen: 'is deze tekst'."
     },
     {
-      "label":"Text indicating how many goals has been added",
-      "default":"Goals added:",
-      "description":"This text will follow after the amount of goals that is currently created, example: 'Goals added: 5' where 'Goals added:' is this text."
+      "label": "Tekst voor \"Omschrijving doelstelling\"-knop",
+      "default": "Omschrijving"
     },
     {
-      "label":"Text for \"Finish goal\"-button",
-      "default":"Finish"
+      "label": "Text for \"Verwijder doelstelling\"-knop",
+      "default": "Verwijder"
     },
     {
-      "label":"Text for \"Edit goal\"-button",
-      "default":"Edit"
+      "label": "Label voor de help tekst",
+      "description": "Label om aanvullende nuttige informatie aan de gebruiker te tonen.",
+      "default": "Meer informatie"
     },
     {
-      "label":"Text for \"Specify goal\"-button",
-      "default":"Specification"
+      "label": "Vul aanvullende help informatie in",
+      "description": "Hier kun je aanvullende nuttige informatie invullen voor de gebruiker."
     },
     {
-      "label":"Text for \"Remove goal\"-button",
-      "default":"Remove"
-    },
-    {
-      "label":"Label for help text",
-      "description":"Label for showing additional helpful information to the user.",
-      "default":"More information"
-    },
-    {
-      "label":"Fill in additional help information",
-      "description":"Here you can fill in additional helpful information for the user."
+      "label": "Lokaliseer verwijdering doelstelling",
+      "fields": [
+        {
+          "label": "Kopregel",
+          "default": "Bevestig verwijdering"
+        },
+        {
+          "label": "Bericht",
+          "default": "Ben je er zeker van dat je deze doelstelling wilt verwijderen?"
+        },
+        {
+          "label": "Label annuleer knop",
+          "default": "Annuleer"
+        },
+        {
+          "label": "Label bevestig knop",
+          "default": "Bevestig"
+        }
+      ]
     }
   ]
 }
